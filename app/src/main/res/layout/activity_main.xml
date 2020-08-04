@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Qory Gore"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Nama" />
+
+    <EditText
+        android:id="@+id/masuktest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+         />
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="Alamat" />
+
+    <EditText
+        android:id="@+id/nexttest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat"
+        />
+    <TextView
+        android:id="@+id/kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="Kampus" />
+
+    <EditText
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kampus"
+        />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="102dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="380dp"
+        tools:srcCompat="@drawable/qory" />
+
+    <ImageView
+        android:id="@id/img"
+        android:layout_width="102dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="380dp"
+        tools:srcCompat="@drawable/qory" />
+
+    <ImageView
+        android:id="@id/img"
+        android:layout_width="102dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="380dp"
+        tools:srcCompat="@drawable/qory" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="16dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="1dip"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="209dp"
+        android:text="back" />
+
+</RelativeLayout>
